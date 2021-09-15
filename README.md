@@ -1,62 +1,36 @@
-# Unit 01 Homework: Marketing Company Landing Page
+# 02 Advanced CSS: Portfolio
 
-For this project, I'm working as a front end developer to solve on-the-job ticket request. The main requirement is to **Refactor** the existing code to make it more accessible. Accessibility can include complex requirements, but my tech lead has given a small list of specific criteria for this project. These criteria are documented in the Acceptance Criteria section.
+For this project, I've developed a portfolio page from scratch. 
 
-## Acceptance Criteria
+This is my second week of the bootcamp. In this week, I learnt some of the advanced CSS skills like flexbox, media queries, and CSS variables. I've used these skills while working on my portfolio. 
 
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-   <br/>
 
-## 💡 My Solution
+## 💡 Development details
 
-After going through the requirement, I have listed down following key points to consider: 
-1. Improve the the accessibility, styling and positioning of the logical structure:<br/>
-   I've re-edited the code code by using the semantic HTML elements. I've fixed the broken link "Search Engine Optimization" by replacing the CLASS selection with ID  selector. As per original code, instead of using 3 different classes for simillar function, I've used the single class to maintain logical structure. For example -   "content-data" and "benifit-data". This has improved the CSS styling file structure. I've restructured the CSS file with appropraite comments. 
+In the header section of the page you can find my name and navigation links. The navigation links are Home, About, Portfolio and Contact. I've created the favicon for the page using Photoshop. It is a logo that starts from the letter "A".
 
-   > **Favicon**: I've created the favicon for this website using Photoshop and added it using the "link rel - icon" code in the head tag.
-   
-   <br/>
+In the 'Head' element of the page I've linked the webfonts and Font awesome as I've used this in the page. 
 
-2. Modify Icon and image elements with accessibility alt attributes:<br/>
-   There was no alt tags for icons and images in the original code. I've now updated the code with concise and focusd keywords to all the images. For the hero banner background image is reffered in the style.css file. I've added the descriptive keyphrase using the **title** tag as shown in the image below for this.
+After header, I've added the Herom banner image. This is my recent photo but I had to do lot of editing to make the perfect hero banner image. I've used the Photoshop to edit hero banner image. I've used the display-flex property to make the hero banner responsive.
 
-   ![Hero banner background image alt tag description.](./assets/readme-assets/hero-image-alt-tag.jpg)
+Next, it was the About me section. I've used font awesome icon to highlight my 3 main skills - Graphic design, Web development and Multimedia. The page was looking very dull without any image for this section. Hence, I though of using the font awesome icons.
 
-   > **Image File Size**: None of the images were optimized for web. The collective file size was 47.7 mb. I've reduced the file size to 6.83 mb without loosing the quality of the images. This has drastically improved the page loading size.
-      
-   <br/>
+After this it was the portfolio section. To make this section responsive I've used the flexbox model. Out of the 5 projects, only first project is ready at this point. Hence, I've added the placeholder images for 4 projects and linked them to the project 1 link-page. I will update this with the latest links as I'll progress through the bootcamp.
 
-3. Make all the heading attributes in sequential order:<br/>
-   Skipping heading levels should be avoided from an accessibility point of view. People using screen readers often rely on navigating by heading so if the structure isn’t hierarchical they may not understand the relationship. For example, in the original code, as highlighted below H2 was followed by H3.
+Next, we have contact us and footer section. This section has all my current contact details and the link of my social media pages like - Facebook, Linkedin and Github.
 
-   ![Incorrect sequencing of heading tags.](./assets/readme-assets/heading-incorrect-formatting.jpg)
+I've tested and confirmed that the page is responsive through various screen resolutions and devices. 
 
-   I've corrected this by replacing the heading tag to H4 as shown in the image below:
+## Mock-up
 
-   ![Correct sequencing of heading tags.](./assets/readme-assets/heading-correct-formatting.jpg)
-   
-   <br/>
+Please find below the page mock-up:
 
-4. Add a concise title:<br/>
-   In the original code, title tag was not properly mentioned. I have now optimized the title tag with descriptive message using the correct keywords to improve ranking position on search engines.
+![Portfolio page mock-up.](./assets/img/screenshot.png)
 
-   <br/>
 
 ## 🔗 Project Link
 
-   https://ajaykulkarni01.github.io/Marketing-company-landing-page/
+   https://ajaykulkarni01.github.io/Portfolio/
 
    <br/>
 
